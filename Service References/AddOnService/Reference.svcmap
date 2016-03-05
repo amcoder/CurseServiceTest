@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="247f9d14-0786-4240-85d5-213dc63669a9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://addon-service.curse.com/AddOnService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AddOnService.wsdl" MetadataType="Wsdl" ID="a1ba48ad-d171-4038-bfdb-40d6549cae9b" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?wsdl" />
+    <MetadataFile FileName="AddOnService.xsd" MetadataType="Schema" ID="1b040571-4ff0-4838-b689-2afff293ef1e" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd4" />
+    <MetadataFile FileName="AddOnService1.xsd" MetadataType="Schema" ID="32771402-a03b-4c04-8e69-328d512037f1" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AddOnService2.xsd" MetadataType="Schema" ID="0397d2f5-e11f-4dcb-ada4-6a46c7228fa6" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AddOnService1.wsdl" MetadataType="Wsdl" ID="d1c02857-e4d1-4c7c-a3f5-ea69e73ae6e1" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AddOnService3.xsd" MetadataType="Schema" ID="4552f04f-dce5-4188-979c-3f8d1473f3b8" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd5" />
+    <MetadataFile FileName="AddOnService.disco" MetadataType="Disco" ID="d0be3c82-c462-4cea-bfd7-83a16ddb903a" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?disco" />
+    <MetadataFile FileName="AddOnService4.xsd" MetadataType="Schema" ID="4fb6b3cc-4c09-4d12-a7a1-18cfb5730872" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd6" />
+    <MetadataFile FileName="AddOnService5.xsd" MetadataType="Schema" ID="268946a2-9beb-4bba-9af7-20d5bf8f524c" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AddOnService6.xsd" MetadataType="Schema" ID="90183183-7442-49f6-ae7c-be559cc547f5" SourceId="1" SourceUrl="http://addon-service.curse.com/AddOnService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
